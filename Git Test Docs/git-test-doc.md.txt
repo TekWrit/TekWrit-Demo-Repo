@@ -1,0 +1,38 @@
+$ pwd
+$ cd ~/
+$ cd ~/desktop
+$ cd TekWrit\ Demo\ Repo
+$ git init
+$ git add "README.md"
+$ git commit
+(Utilize 'esc' + ':x!' in commit dialogue window)
+$ git remote add origin https://github.com/TekWrit/TekWrit-Demo-Repo.git
+$ git branch -M main
+$ git push -u origin main
+$ git commit -a
+$ git add HTML\ Test\ Docs/
+$ git commit -a
+$ git push
+
+$ git branch test-branch-1
+$ git push -u origin test-branch-1
+
+$ cd HTML\ Test\ Docs
+$ pwd
+$ git add testbranch1doc.txt.txt
+$ git commit -a
+$ git push
+
+$ git branch test-branch-2
+$ git push -u origin test-branch-2
+$ git checkout test-branch-2 (switches branches)
+
+$ git branch --all
+$ git branch -r
+
+$ git branch -d test-branch-1
+$ git push origin --delete test-branch-1
+
+$ git commit
+$ git push
+$ git pull
